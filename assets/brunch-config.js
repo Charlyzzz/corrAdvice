@@ -57,6 +57,9 @@ exports.config = {
   },
 
   npm: {
+    styles: {
+      bootstrap: ['dist/css/bootstrap.min.css']
+    },
     enabled: true
   }
 };
